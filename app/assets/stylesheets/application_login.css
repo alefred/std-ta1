@@ -13,4 +13,9 @@
  *= require font-awesome
  *= require ionicons
  *= require Bootstrap-3.3.6/css/bootstrap
+ *= require login/login
+ *= require AdminLTE/AdminLTE
+ *= require AdminLTE/skins/skin-red
+ *= require AdminLTE/skins/skin-green
+ *= require Bootstrap-3.3.6/css/bootstrap-social
  */
