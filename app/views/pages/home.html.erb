@@ -1,0 +1,12 @@
+<h1>Pages#home</h1>
+
+<% if user_signed_in? %>
+  <p>
+    Bienvenido!!!
+  </p>
+<% else %>
+  <p>
+    <%= link_to "Resgistrate", new_user_registration_path, class: 'clasequenotengo'%>
+  </p>
+<% end %>
+

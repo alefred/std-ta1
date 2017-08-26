@@ -1,0 +1,7 @@
+<% if user_signed_in? %>
+  <li class="dropdown user user-menu"><a><%= current_user.email %></a></li>
+	<li class="dropdown user user-menu"><%= link_to 'Cerrar Sesión', destroy_user_session_path, method: :delete %></li>
+<% else %>
+  <li class="dropdown user user-menu"><a>Invitado</a></li>
+	<li class="dropdown user user-menu"><%= link_to 'Iniciar Sesión', new_user_session_path %></li>
+<% end %>
